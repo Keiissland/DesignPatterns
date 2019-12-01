@@ -4,9 +4,7 @@ package com.keiissland.design.decorator.type01;
  * 装饰者：变焦镜头
  * 可以帮助拍照设备增加800W像素
  */
-public class ZoomLens implements Photographable {
-
-    private Photographable photographable;
+public class ZoomLens extends Lens {
 
     /**
      * 变焦镜头自带800W像素
@@ -14,7 +12,7 @@ public class ZoomLens implements Photographable {
     private final int pixel = 800;
 
     public ZoomLens(Photographable photographable) {
-        this.photographable = photographable;
+        super(photographable);
     }
 
     /**

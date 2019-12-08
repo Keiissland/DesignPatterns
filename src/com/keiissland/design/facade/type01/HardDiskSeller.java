@@ -1,7 +1,7 @@
 package com.keiissland.design.facade.type01;
 
 /**
- * 硬盘卖家：充当门面模式中的SubSystem（子系统）角色
+ * 硬盘卖家：充当外面模式中的SubSystem（子系统）角色
  * 提供售卖硬盘服务
  */
 public class HardDiskSeller {

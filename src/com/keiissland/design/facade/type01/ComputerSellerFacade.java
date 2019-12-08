@@ -1,7 +1,7 @@
 package com.keiissland.design.facade.type01;
 
 /**
- * 电脑卖家：充当门面模式中的Facade（门面）角色
+ * 电脑卖家：充当外观模式中的Facade（门面）角色
  * 负责向各个配件卖家（子系统）购买电脑配件
  */
 public class ComputerSellerFacade {
